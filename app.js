@@ -1,4 +1,4 @@
-const myModule = require('./sql_connect.js')
+const myModule = require('./index.js')
 
 myModule.init();
 
