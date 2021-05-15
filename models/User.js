@@ -6,7 +6,7 @@ const User = new Schema({
     email: {type: String, required: true, unique: true},
     password: {type: String, required: true},
     verificated: {type: Boolean, required: true},
-    created_date: {type: String, required: true},
+    createdDate: {type: String, required: true},
     name: {type: String, required: true},
     XP: {type: Number, required: true},
     currentBalance: {type: Number, required: true},
